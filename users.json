@@ -2,7 +2,7 @@
     "users": [
         {
             "username": "root",
-            "password": "anus123",
+            "password": "root",
             "concurrents": 6,
             "max_boot": 1200,
             "Reseller": true,
