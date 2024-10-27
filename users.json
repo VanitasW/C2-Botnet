@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "username": "root",
+            "password": "anus123",
+            "concurrents": 6,
+            "max_boot": 1200,
+            "Reseller": true,
+            "Moder": false,
+            "Admin": true,
+            "Powersavingbypass": true,
+            "attacks": [],
+            "expire": "2025/10/21 20:30",
+            "blacklistbypass": true,
+            "slotbypass": true,
+            "Vip": true
+        }
+    ]
+}
